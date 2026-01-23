@@ -46,7 +46,7 @@ onMounted(() => {
     <div class="container">
       <div class="section-title">
         <p class="section-title__subtitle">The Journey</p>
-        <h2 class="section-title__text">My Journey</h2>
+        <h2 class="section-title__text">Career Timeline</h2>
       </div>
 
       <div class="timeline">

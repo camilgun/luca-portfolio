@@ -36,7 +36,7 @@ onMounted(() => {
     <div class="container">
       <div class="contact__content">
         <p class="contact__subtitle">What's next?</p>
-        <h2 class="contact__title">Let's build something together?</h2>
+        <h2 class="contact__title">Let's build something together.</h2>
         <p class="contact__text">
           I'm always open to discussing new projects, creative opportunities,
           or simply having a chat about tech and innovation.

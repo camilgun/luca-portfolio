@@ -24,7 +24,7 @@ const tools = [
     color: 'pink'
   },
   {
-    name: 'Antigraviti',
+    name: 'Antigravity',
     description: 'Exploring new AI tools. Curiosity knows no bounds.',
     icon: 'rocket-launch',
     color: 'orange'
