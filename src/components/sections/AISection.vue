@@ -7,25 +7,25 @@ const { fadeInUp, staggerIn } = useScrollAnimation()
 const tools = [
   {
     name: 'Claude Code',
-    description: 'Il mio compagno di coding quotidiano. Pair programming con AI che capisce il contesto.',
+    description: 'My daily coding companion. Pair programming with AI that understands context.',
     icon: 'robot',
     color: 'violet'
   },
   {
     name: 'Go + Automation',
-    description: 'Custom tools in Go per estendere Asana. Automazione task, integrazione sistemi.',
+    description: 'Custom tools in Go to extend Asana. Task automation, system integration.',
     icon: 'gear-six',
     color: 'cyan'
   },
   {
     name: 'Codex & Co.',
-    description: 'Esperimenti con vari AI coding assistants. Sempre alla ricerca del tool perfetto.',
+    description: 'Experiments with various AI coding assistants. Always looking for the perfect tool.',
     icon: 'code',
     color: 'pink'
   },
   {
     name: 'Antigraviti',
-    description: 'Esplorazione di nuovi tool AI. La curiosita non ha limiti.',
+    description: 'Exploring new AI tools. Curiosity knows no bounds.',
     icon: 'rocket-launch',
     color: 'orange'
   }
@@ -50,9 +50,9 @@ onMounted(() => {
 
       <div class="ai__intro">
         <p class="ai__intro-text">
-          Il futuro del coding e gia qui. Non uso l'AI per <em>sostituire</em> il pensiero.
+          The future of coding is already here. I don't use AI to <em>replace</em> thinking.
           <br>
-          <strong>La uso per amplificarlo.</strong>
+          <strong>I use it to amplify it.</strong>
         </p>
       </div>
 
@@ -81,13 +81,13 @@ onMounted(() => {
           </div>
           <div class="ai__terminal-content">
             <code>
-              <span class="ai__code-comment"># La mia filosofia</span><br><br>
-              <span class="ai__code-key">passion:</span> Sperimentare con ogni nuovo tool AI<br>
-              <span class="ai__code-key">goal:</span> Trovare piu tempo per progetti personali<br>
-              <span class="ai__code-key">belief:</span> Il codice migliore e quello che non devi scrivere<br>
-              <span class="ai__code-key">next:</span> Costruire qualcosa di nuovo con AI<br><br>
-              <span class="ai__code-comment"># Il codice che scrive codice</span><br>
-              <span class="ai__code-comment"># non e magia. E il presente.</span>
+              <span class="ai__code-comment"># My philosophy</span><br><br>
+              <span class="ai__code-key">passion:</span> Experimenting with every new AI tool<br>
+              <span class="ai__code-key">goal:</span> Finding more time for personal projects<br>
+              <span class="ai__code-key">belief:</span> The best code is the code you don't have to write<br>
+              <span class="ai__code-key">next:</span> Building something new with AI<br><br>
+              <span class="ai__code-comment"># Code that writes code</span><br>
+              <span class="ai__code-comment"># is not magic. It's the present.</span>
             </code>
           </div>
         </div>

@@ -35,16 +35,16 @@ onMounted(() => {
   <section id="contact" ref="sectionRef" class="contact section">
     <div class="container">
       <div class="contact__content">
-        <p class="contact__subtitle">E adesso?</p>
-        <h2 class="contact__title">Costruiamo qualcosa insieme?</h2>
+        <p class="contact__subtitle">What's next?</p>
+        <h2 class="contact__title">Let's build something together?</h2>
         <p class="contact__text">
-          Sono sempre aperto a discutere di nuovi progetti, opportunita creative,
-          o semplicemente per fare due chiacchiere su tech e innovazione.
+          I'm always open to discussing new projects, creative opportunities,
+          or simply having a chat about tech and innovation.
         </p>
 
         <a href="mailto:lucamilletti@gmail.com" class="contact__cta">
           <ph-paper-plane-tilt :size="20" weight="fill" />
-          Scrivimi
+          Get in touch
         </a>
 
         <div class="contact__social">

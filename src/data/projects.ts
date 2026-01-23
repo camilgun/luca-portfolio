@@ -15,8 +15,8 @@ export const projects: Project[] = [
   {
     id: 'cmp-rewrite',
     title: 'CMP Configurator Rewrite',
-    description: 'Riscrittura completa del Consent Management Platform configurator da legacy jQuery a Vue.js moderna.',
-    longDescription: 'Progetto di punta in iubenda: trasformazione di un\'applicazione legacy in una soluzione Vue.js scalabile e manutenibile. Gestione stato complesso, i18n per mercati globali, integrazione con sistemi di compliance GDPR.',
+    description: 'Complete rewrite of the Consent Management Platform configurator from legacy jQuery to modern Vue.js.',
+    longDescription: 'Flagship project at iubenda: transforming a legacy application into a scalable and maintainable Vue.js solution. Complex state management, i18n for global markets, integration with GDPR compliance systems.',
     tech: ['Vue.js', 'Vuex', 'SCSS', 'i18n', 'REST API'],
     type: 'work',
     featured: true
@@ -24,8 +24,8 @@ export const projects: Project[] = [
   {
     id: 'radar',
     title: 'Radar Compliance Scanner',
-    description: 'Tool backend per scanning automatico di siti web per verifiche di compliance legale.',
-    longDescription: 'Sistema Node.js che utilizza Puppeteer per analizzare automaticamente i siti dei clienti, identificare cookie, tracker e potenziali problemi di compliance. Migrazione a TypeScript per robustezza.',
+    description: 'Backend tool for automatic website scanning for legal compliance verification.',
+    longDescription: 'Node.js system that uses Puppeteer to automatically analyze customer websites, identify cookies, trackers, and potential compliance issues. Migrated to TypeScript for robustness.',
     tech: ['Node.js', 'Express', 'Puppeteer', 'TypeScript'],
     type: 'work',
     featured: true
@@ -33,8 +33,8 @@ export const projects: Project[] = [
   {
     id: 'asana-tools',
     title: 'Custom Automation Tools',
-    description: 'Suite di tool in Go per estendere le funzionalit\u00e0 di Asana con automazioni personalizzate.',
-    longDescription: 'Side project per automatizzare workflow e integrare Asana con altri sistemi. Creazione automatica task, sincronizzazione, reporting custom.',
+    description: 'Suite of Go tools to extend Asana functionality with custom automations.',
+    longDescription: 'Side project to automate workflows and integrate Asana with other systems. Automatic task creation, synchronization, custom reporting.',
     tech: ['Go', 'REST API', 'Asana API', 'Automation'],
     type: 'personal',
     featured: true
@@ -42,7 +42,7 @@ export const projects: Project[] = [
   {
     id: 'ctrlalttrack',
     title: 'CtrlAltTrack',
-    description: 'Applicazione di tracking sviluppata in TypeScript.',
+    description: 'Tracking application developed in TypeScript.',
     tech: ['TypeScript', 'Node.js'],
     type: 'personal',
     github: 'https://github.com/camilgun/CtrlAltTrack'
@@ -50,7 +50,7 @@ export const projects: Project[] = [
   {
     id: 'ticktrack',
     title: 'Ticktrack',
-    description: 'Tool per time tracking personale.',
+    description: 'Personal time tracking tool.',
     tech: ['TypeScript'],
     type: 'personal',
     github: 'https://github.com/camilgun/Ticktrack'
@@ -58,7 +58,7 @@ export const projects: Project[] = [
   {
     id: 'go-vanilla',
     title: 'GoVanillaNoFramework',
-    description: 'Esperimento: applicazione Go pura senza framework, per comprendere le basi del linguaggio.',
+    description: 'Experiment: pure Go application without frameworks, to understand the language fundamentals.',
     tech: ['Go'],
     type: 'personal',
     github: 'https://github.com/camilgun/GoVanillaNoFramework'
@@ -66,8 +66,8 @@ export const projects: Project[] = [
   {
     id: 'braimage',
     title: 'Braimage Platform',
-    description: 'Piattaforma HealthTech per integrare dati medici e migliorare la diagnosi della demenza.',
-    longDescription: 'Startup co-fondata nel 2018. Software di data integration accessibile remotamente dai medici, per visualizzare e analizzare dati complessi relativi a malattie come la demenza.',
+    description: 'HealthTech platform to integrate medical data and improve dementia diagnosis.',
+    longDescription: 'Startup co-founded in 2018. Data integration software accessible remotely by doctors, to visualize and analyze complex data related to diseases like dementia.',
     tech: ['Data Visualization', 'Healthcare', 'Full Stack'],
     type: 'startup'
   }

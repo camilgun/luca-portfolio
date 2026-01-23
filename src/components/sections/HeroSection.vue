@@ -44,18 +44,18 @@ onMounted(() => {
     </div>
 
     <div class="hero__content">
-      <p class="hero__greeting">Ciao, sono</p>
+      <p class="hero__greeting">Hi, I'm</p>
       <h1 class="hero__name">Luca Camilletti</h1>
       <div class="hero__role">
         <span class="hero__role-text">{{ displayText }}</span>
         <span v-if="showCursor" class="hero__cursor">|</span>
       </div>
       <p class="hero__tagline">
-        Trasformo idee in prodotti che scalano.<br>
-        <span class="hero__tagline-highlight">10+ anni di codice, startup e innovazione.</span>
+        I turn ideas into products that scale.<br>
+        <span class="hero__tagline-highlight">10+ years of code, startups, and innovation.</span>
       </p>
       <button class="hero__cta" @click="scrollToSection">
-        Scopri il mio percorso
+        Discover my journey
         <ph-arrow-down :size="20" weight="bold" />
       </button>
     </div>

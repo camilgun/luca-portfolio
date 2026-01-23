@@ -5,10 +5,10 @@ import { useScrollAnimation } from '@/composables/useScrollAnimation'
 const { fadeInUp, staggerIn } = useScrollAnimation()
 
 const quickFacts = [
-  { number: '10+', label: 'Anni di esperienza', icon: 'calendar' },
-  { number: '2', label: 'Startup fondate', icon: 'rocket-launch' },
-  { number: '1', label: 'Anno sabbatico', icon: 'compass' },
-  { number: '100k+', label: 'Linee di Vue.js', icon: 'code' }
+  { number: '10+', label: 'Years of experience', icon: 'calendar' },
+  { number: '2', label: 'Startups founded', icon: 'rocket-launch' },
+  { number: '1', label: 'Sabbatical year', icon: 'compass' },
+  { number: '100k+', label: 'Lines of Vue.js', icon: 'code' }
 ]
 
 onMounted(() => {
@@ -22,40 +22,41 @@ onMounted(() => {
   <section id="about" class="about section">
     <div class="container">
       <div class="section-title">
-        <p class="section-title__subtitle">Chi sono</p>
+        <p class="section-title__subtitle">Who I am</p>
         <h2 class="section-title__text">About Me</h2>
       </div>
 
       <div class="about__grid">
         <div class="about__image-wrapper">
           <div class="about__image-frame">
-            <div class="about__image-placeholder">
-              <ph-user :size="80" weight="thin" />
-              <span>La tua foto qui</span>
-            </div>
+            <img
+              src="@/assets/images/profile/luca.png"
+              alt="Luca Camilletti"
+              class="about__image"
+            />
           </div>
           <div class="about__image-decoration"></div>
         </div>
 
         <div class="about__content">
           <p class="about__text about__text--large">
-            Dopo <strong>10+ anni nel tech</strong>, ho capito una cosa:
+            After <strong>10+ years in tech</strong>, I've learned one thing:
           </p>
           <p class="about__text about__text--highlight">
-            Non esiste un percorso lineare.
+            There is no linear path.
           </p>
           <p class="about__text">
-            Sono stato <strong>freelance</strong>, <strong>consultant in banca</strong>,
-            <strong>co-founder di startup</strong> (alcune fallite, altre no), e poi...
-            ho ricominciato da <strong>junior</strong>.
+            I've been a <strong>freelancer</strong>, a <strong>bank consultant</strong>,
+            a <strong>startup co-founder</strong> (some failed, some didn't), and then...
+            I started over as a <strong>junior</strong>.
           </p>
           <p class="about__text">
-            Oggi sono <strong>Product Engineer</strong> in iubenda, dove Vue.js incontra
-            la privacy by design.
+            Today I'm a <strong>Product Engineer</strong> at iubenda, where Vue.js meets
+            privacy by design.
           </p>
           <p class="about__text about__text--philosophy">
-            Scrivo <strong>Go</strong> per divertimento, parlo con <strong>Claude Code</strong>
-            per lavoro, e credo che il miglior codice sia quello che non devi scrivere.
+            I write <strong>Go</strong> for fun, talk to <strong>Claude Code</strong>
+            for work, and believe the best code is the code you don't have to write.
           </p>
         </div>
       </div>
@@ -107,16 +108,12 @@ onMounted(() => {
     border: 2px solid $glass-border;
   }
 
-  &__image-placeholder {
+  &__image {
+    width: 100%;
+    height: auto;
     aspect-ratio: 1;
-    background: $bg-dark-700;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: $spacing-sm;
-    color: $text-gray-500;
-    font-size: $font-size-sm;
+    object-fit: cover;
+    display: block;
   }
 
   &__image-decoration {

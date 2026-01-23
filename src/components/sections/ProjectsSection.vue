@@ -12,8 +12,8 @@ const filteredProjects = computed(() => {
 })
 
 const filters: { value: Project['type'] | 'all'; label: string }[] = [
-  { value: 'all', label: 'Tutti' },
-  { value: 'work', label: 'Lavoro' },
+  { value: 'all', label: 'All' },
+  { value: 'work', label: 'Work' },
   { value: 'personal', label: 'Side Projects' },
   { value: 'startup', label: 'Startup' }
 ]

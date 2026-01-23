@@ -41,7 +41,7 @@ onMounted(() => {
   <section id="skills" ref="sectionRef" class="skills section">
     <div class="container">
       <div class="section-title">
-        <p class="section-title__subtitle">Competenze</p>
+        <p class="section-title__subtitle">Expertise</p>
         <h2 class="section-title__text">Skills</h2>
       </div>
 
