@@ -55,8 +55,8 @@ onMounted(() => {
             privacy by design.
           </p>
           <p class="about__text about__text--philosophy">
-            I write <strong>Go</strong> for fun, talk to <strong>Claude Code</strong>
-            for work, and believe the best code is the code you don't have to write.
+            I write <strong>Go</strong> for fun, use <strong>Claude Code</strong> as a thinking partner,
+            and believe that real apps require <strong>focus and craftsmanship</strong> — not shortcuts.
           </p>
         </div>
       </div>

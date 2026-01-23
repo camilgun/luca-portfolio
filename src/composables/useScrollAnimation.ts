@@ -37,9 +37,10 @@ export function useScrollAnimation() {
       duration: 0.6,
       stagger: 0.1,
       ease: 'power2.out',
+      immediateRender: false,
       scrollTrigger: {
         trigger: elements,
-        start: 'top 85%',
+        start: 'top 90%',
         toggleActions: 'play none none reverse'
       },
       ...options

@@ -19,8 +19,8 @@ export const careerEvents: CareerEvent[] = [
     title: 'The First Website',
     subtitle: 'IT Consultant - Freelance',
     location: 'Italy',
-    description: 'Web development, network configuration, system management. My first website sold for 50 euros. I didn\'t even know what CSS was!',
-    quote: '50 euros for an HTML website. It was just the beginning.',
+    description: 'Web development, network configuration, system management. My first paid website: 50 euros and zero knowledge of CSS. Every expert was once a beginner willing to learn.',
+    quote: 'Everyone starts somewhere. I started at 50 euros.',
     color: 'cyan',
     skills: ['HTML', 'CSS', 'PHP', 'WordPress']
   },
@@ -30,9 +30,9 @@ export const careerEvents: CareerEvent[] = [
     title: 'First Startup',
     subtitle: 'Co-founder - Neonisi Inc',
     location: 'Italy',
-    description: 'My first entrepreneurial adventure. Software development projects with lots of enthusiasm and little experience.',
+    description: 'My first entrepreneurial adventure. Software development projects with more enthusiasm than experience. Learning that building a product is as much about understanding users as writing code.',
     color: 'pink',
-    skills: ['Software Development', 'Entrepreneurship']
+    skills: ['Software Development', 'Entrepreneurship', 'Product Thinking']
   },
   {
     id: 'cse-start',
@@ -108,9 +108,9 @@ export const careerEvents: CareerEvent[] = [
     title: 'Senior & Modernization',
     subtitle: 'Senior Frontend Developer - iubenda',
     location: 'Recanati (Remote)',
-    description: 'Sprockets to Webpack migration, A/B testing with Growthbook, code review, clean code principles. Technical leadership.',
+    description: 'Sprockets to Webpack migration, A/B testing with Growthbook, accessibility improvements (a11y), code review, clean code principles. Technical leadership.',
     color: 'violet',
-    skills: ['Webpack', 'Growthbook', 'Code Review', 'Mentoring']
+    skills: ['Webpack', 'Growthbook', 'Accessibility (a11y)', 'Code Review', 'Mentoring']
   },
   {
     id: 'iubenda-pe',
@@ -126,11 +126,11 @@ export const careerEvents: CareerEvent[] = [
   {
     id: 'present',
     year: 'Today',
-    title: 'AI Enthusiast',
-    subtitle: 'The Future Is Already Here',
-    description: 'Claude Code for daily coding, side projects in Go, continuous experimentation. Custom Automation Tools for Asana. Never stop learning.',
-    quote: 'The best code is the code you don\'t have to write.',
+    title: 'Pragmatic Builder',
+    subtitle: 'Focus & Craftsmanship',
+    description: 'Using Claude Code as a thinking partner, building automation tools in Go, continuous learning. Tools that amplify intention, not replace it.',
+    quote: 'Real apps need focus and craftsmanship, not vibe coding.',
     color: 'pink',
-    skills: ['Claude Code', 'Go', 'AI Tools', 'Automation']
+    skills: ['Claude Code', 'Go', 'Intentional Development', 'Automation']
   }
 ]

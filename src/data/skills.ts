@@ -84,9 +84,9 @@ export const softSkills: string[] = [
   'Product Thinking',
   'Cross-functional Collaboration',
   'Technical Leadership',
+  'Architectural Decision Making',
   'Code Review',
   'Mentoring',
   'Agile Methodologies',
-  'Problem Solving',
-  'Stakeholder Management'
+  'Ethical Tech & Privacy'
 ]

@@ -44,15 +44,15 @@ onMounted(() => {
       <div class="section-title">
         <p class="section-title__subtitle">Innovation</p>
         <h2 class="section-title__text ai__title">
-          <span class="ai__title-glitch" data-text="AI Enthusiast">AI Enthusiast</span>
+          <span class="ai__title-glitch" data-text="Tools & Craft">Tools & Craft</span>
         </h2>
       </div>
 
       <div class="ai__intro">
         <p class="ai__intro-text">
-          The future of coding is already here. I don't use AI to <em>replace</em> thinking.
+          I use tools that <em>amplify intention</em>, not replace it.
           <br>
-          <strong>I use it to amplify it.</strong>
+          <strong>Building something meaningful requires focus, not just prompts.</strong>
         </p>
       </div>
 
@@ -81,13 +81,13 @@ onMounted(() => {
           </div>
           <div class="ai__terminal-content">
             <code>
-              <span class="ai__code-comment"># My philosophy</span><br><br>
-              <span class="ai__code-key">passion:</span> Experimenting with every new AI tool<br>
-              <span class="ai__code-key">goal:</span> Finding more time for personal projects<br>
-              <span class="ai__code-key">belief:</span> The best code is the code you don't have to write<br>
-              <span class="ai__code-key">next:</span> Building something new with AI<br><br>
-              <span class="ai__code-comment"># Code that writes code</span><br>
-              <span class="ai__code-comment"># is not magic. It's the present.</span>
+              <span class="ai__code-comment"># My approach</span><br><br>
+              <span class="ai__code-key">focus:</span> Real apps need craftsmanship, not vibe coding<br>
+              <span class="ai__code-key">tools:</span> AI as a thinking partner, not a replacement<br>
+              <span class="ai__code-key">belief:</span> Intention and focus beat shortcuts<br>
+              <span class="ai__code-key">next:</span> Building something meaningful<br><br>
+              <span class="ai__code-comment"># Tools amplify intention.</span><br>
+              <span class="ai__code-comment"># Craftsmanship makes it real.</span>
             </code>
           </div>
         </div>

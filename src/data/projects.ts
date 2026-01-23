@@ -31,6 +31,15 @@ export const projects: Project[] = [
     featured: true
   },
   {
+    id: 'onboarding-flow',
+    title: 'Product Onboarding Flow',
+    description: 'Guided onboarding experience for iubenda product configuration.',
+    longDescription: 'Multi-step onboarding flow to help users easily create and configure products. Involved in architectural decisions with multiple stakeholders, defining API contracts between frontend and backend, and ensuring a seamless user experience.',
+    tech: ['Vue.js', 'API Design', 'Product Strategy', 'Multi-team Collaboration'],
+    type: 'work',
+    featured: true
+  },
+  {
     id: 'asana-tools',
     title: 'Custom Automation Tools',
     description: 'Suite of Go tools to extend Asana functionality with custom automations.',
@@ -40,28 +49,13 @@ export const projects: Project[] = [
     featured: true
   },
   {
-    id: 'ctrlalttrack',
-    title: 'CtrlAltTrack',
-    description: 'Tracking application developed in TypeScript.',
-    tech: ['TypeScript', 'Node.js'],
+    id: 'github-experiments',
+    title: 'Open Source Experiments',
+    description: 'Collection of learning projects and technical experiments exploring different languages and paradigms.',
+    longDescription: 'Various projects exploring Go fundamentals, time tracking tools, and other technical experiments. Each one a step in continuous learning and skill development.',
+    tech: ['Go', 'TypeScript', 'Node.js', 'Experimentation'],
     type: 'personal',
-    github: 'https://github.com/camilgun/CtrlAltTrack'
-  },
-  {
-    id: 'ticktrack',
-    title: 'Ticktrack',
-    description: 'Personal time tracking tool.',
-    tech: ['TypeScript'],
-    type: 'personal',
-    github: 'https://github.com/camilgun/Ticktrack'
-  },
-  {
-    id: 'go-vanilla',
-    title: 'GoVanillaNoFramework',
-    description: 'Experiment: pure Go application without frameworks, to understand the language fundamentals.',
-    tech: ['Go'],
-    type: 'personal',
-    github: 'https://github.com/camilgun/GoVanillaNoFramework'
+    github: 'https://github.com/camilgun'
   },
   {
     id: 'braimage',
